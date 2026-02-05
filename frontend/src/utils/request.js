@@ -8,3 +8,15 @@ export const httpClient = axios.create({
     'Content-Type': 'application/json'
   }
 })
+
+/**
+ * Configure the Authorization header for subsequent requests.
+ */
+export const setAuthToken = (token) => {
+  if (token) {
+    httpClient.defaults.headers.common.Authorization = `Bearer ${token}`
+  } else {
+    delete httpClient.defaults.headers.common.Authorization
+  }
+}
+

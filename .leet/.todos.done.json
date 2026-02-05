@@ -249,6 +249,16 @@
       "suggested_solutions": [],
       "goal_id": null,
       "branch": "main#feature#frontend-auth"
+    },
+    {
+      "id": "frontend-create-loginpage-vue-with-google-sign-in-button",
+      "content": "Frontend: Create `LoginPage.vue` with Google Sign-In button",
+      "status": "completed",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": "main#feature#frontend-auth-flow"
     }
   ]
 }
