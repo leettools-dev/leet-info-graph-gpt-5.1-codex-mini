@@ -13,23 +13,29 @@ and receive AI-generated infographics wit...
 
 ## Features
 
-- placeholder feature entry (to be detailed later)
+- Project skeleton: FastAPI service with health endpoint and CLI
 
 ## Getting Started
 
 ### Prerequisites
 
-*Prerequisites will be documented here.*
+* Python 3.11+
 
 ### Installation
 
 ```bash
+python -m pip install -e backend
+```
+
 # Installation instructions will be added
 ```
 
 ### Usage
 
 ```bash
+python -m infograph.svc.main --port 8000
+```
+
 # Usage examples will be added
 ```
 
