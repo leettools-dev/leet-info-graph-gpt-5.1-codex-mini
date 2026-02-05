@@ -1,8 +1,8 @@
 {
   "todos": [
     {
-      "id": "tasks",
-      "content": "Tasks:**",
+      "id": "initialize-python-package-structure-under-backend-src-infograph",
+      "content": "Initialize Python package structure under `backend/src/infograph/`",
       "status": "in_progress",
       "background": null,
       "dependencies": [],
@@ -83,16 +83,6 @@
     {
       "id": "pytest-test-passes-for-health-endpoint",
       "content": "pytest test passes for health endpoint",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "tasks",
-      "content": "Tasks:**",
       "status": "pending",
       "background": null,
       "dependencies": [],
@@ -191,16 +181,6 @@
       "branch": null
     },
     {
-      "id": "tasks",
-      "content": "Tasks:**",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
       "id": "create-abstract-store-interfaces-for-user-session-source-infographic-message",
       "content": "Create abstract store interfaces for User, Session, Source, Infographic, Message",
       "status": "pending",
@@ -273,16 +253,6 @@
     {
       "id": "tables-created-automatically-on-first-use",
       "content": "Tables created automatically on first use",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "tasks",
-      "content": "Tasks:**",
       "status": "pending",
       "background": null,
       "dependencies": [],
@@ -421,16 +391,6 @@
       "branch": null
     },
     {
-      "id": "tasks",
-      "content": "Tasks:**",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
       "id": "backend-create-session-router-py-with-all-session-endpoints",
       "content": "Backend: Create `session_router.py` with all session endpoints",
       "status": "pending",
@@ -531,16 +491,6 @@
       "branch": null
     },
     {
-      "id": "tasks",
-      "content": "Tasks:**",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
       "id": "backend-create-message-endpoints-in-session-router-py",
       "content": "Backend: Create message endpoints in `session_router.py`",
       "status": "pending",
@@ -633,16 +583,6 @@
     {
       "id": "loading-indicator-while-waiting-for-response",
       "content": "Loading indicator while waiting for response",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "tasks",
-      "content": "Tasks:**",
       "status": "pending",
       "background": null,
       "dependencies": [],
@@ -761,16 +701,6 @@
       "branch": null
     },
     {
-      "id": "tasks",
-      "content": "Tasks:**",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
       "id": "backend-create-infographic-service-py-with-template-based-generation",
       "content": "Backend: Create `infographic_service.py` with template-based generation",
       "status": "pending",
@@ -881,16 +811,6 @@
       "branch": null
     },
     {
-      "id": "tasks",
-      "content": "Tasks:**",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
       "id": "backend-add-query-params-to-list-sessions-date-range-search",
       "content": "Backend: Add query params to list sessions (date range, search)",
       "status": "pending",
@@ -953,16 +873,6 @@
     {
       "id": "pagination-works-for-large-session-lists",
       "content": "Pagination works for large session lists",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "tasks",
-      "content": "Tasks:**",
       "status": "pending",
       "background": null,
       "dependencies": [],
@@ -1053,16 +963,6 @@
     {
       "id": "zip-option-includes-infographic-sources-metadata",
       "content": "ZIP option includes infographic + sources + metadata",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "tasks",
-      "content": "Tasks:**",
       "status": "pending",
       "background": null,
       "dependencies": [],
@@ -1414,16 +1314,6 @@
       "id": "readme-documents-all-features-and-setup-instructions",
       "content": "README documents all features and setup instructions",
       "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "initialize-python-package-structure-under-backend-src-infograph",
-      "content": "Initialize Python package structure under `backend/src/infograph/`",
-      "status": "in_progress",
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
