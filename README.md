@@ -48,7 +48,7 @@ python -m pytest tests/
 
 ## Features
 
-- Added Chat and History interfaces that hook into sessions offering creation, listing, and deletion operations.
+- Added Research Session endpoints with authentication checks and CRUD operations, enabling session creation, listing, retrieval, and deletion for the authenticated user.
 ## Next Up
 
 - scaffold the Vue 3 frontend (Vite + Element Plus + TailwindCSS)
