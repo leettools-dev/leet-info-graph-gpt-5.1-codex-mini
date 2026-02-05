@@ -1,19 +1,9 @@
 {
   "todos": [
     {
-      "id": "can-create-read-update-delete-all-entity-types",
-      "content": "Can create, read, update, delete all entity types",
-      "status": "in_progress",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": "main#feature#crud-stores"
-    },
-    {
       "id": "tables-created-automatically-on-first-use",
       "content": "Tables created automatically on first use",
-      "status": "pending",
+      "status": "in_progress",
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
@@ -83,16 +73,6 @@
     {
       "id": "jwt-token-stored-in-localstorage-sent-with-api-requests",
       "content": "JWT token stored in localStorage, sent with API requests",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "backend-create-session-router-py-with-all-session-endpoints",
-      "content": "Backend: Create `session_router.py` with all session endpoints",
       "status": "pending",
       "background": null,
       "dependencies": [],

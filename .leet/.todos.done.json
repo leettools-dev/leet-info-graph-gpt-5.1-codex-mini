@@ -299,6 +299,26 @@
       "suggested_solutions": [],
       "goal_id": null,
       "branch": null
+    },
+    {
+      "id": "can-create-read-update-delete-all-entity-types",
+      "content": "Can create, read, update, delete all entity types",
+      "status": "completed",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": "main#feature#crud-stores"
+    },
+    {
+      "id": "backend-create-session-router-py-with-all-session-endpoints",
+      "content": "Backend: Create `session_router.py` with all session endpoints",
+      "status": "completed",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
     }
   ]
 }
