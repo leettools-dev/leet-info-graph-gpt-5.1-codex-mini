@@ -1,36 +1,6 @@
 {
   "todos": [
     {
-      "id": "acceptance-criteria",
-      "content": "Acceptance Criteria:**",
-      "status": "in_progress",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": "main#feature#auth-router-setup"
-    },
-    {
-      "id": "acceptance-criteria",
-      "content": "Acceptance Criteria:**",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "yarn-dev-starts-frontend-on-port-3001",
-      "content": "`yarn dev` starts frontend on port 3001",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
       "id": "create-tables-with-proper-schemas",
       "content": "Create tables with proper schemas",
       "status": "completed",
@@ -44,16 +14,6 @@
       "id": "write-pytest-tests-for-crud-operations",
       "content": "Write pytest tests for CRUD operations",
       "status": "completed",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "acceptance-criteria",
-      "content": "Acceptance Criteria:**",
-      "status": "pending",
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
@@ -123,16 +83,6 @@
     {
       "id": "frontend-add-auth-guard-to-router",
       "content": "Frontend: Add auth guard to router",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "acceptance-criteria",
-      "content": "Acceptance Criteria:**",
       "status": "pending",
       "background": null,
       "dependencies": [],
@@ -231,16 +181,6 @@
       "branch": null
     },
     {
-      "id": "acceptance-criteria",
-      "content": "Acceptance Criteria:**",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
       "id": "user-can-create-a-new-research-session-with-a-prompt",
       "content": "User can create a new research session with a prompt",
       "status": "pending",
@@ -323,16 +263,6 @@
     {
       "id": "frontend-create-chat-pinia-store",
       "content": "Frontend: Create chat Pinia store",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "acceptance-criteria",
-      "content": "Acceptance Criteria:**",
       "status": "pending",
       "background": null,
       "dependencies": [],
@@ -441,16 +371,6 @@
       "branch": null
     },
     {
-      "id": "acceptance-criteria",
-      "content": "Acceptance Criteria:**",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
       "id": "when-user-submits-a-research-prompt-web-search-is-triggered",
       "content": "When user submits a research prompt, web search is triggered",
       "status": "pending",
@@ -551,16 +471,6 @@
       "branch": null
     },
     {
-      "id": "acceptance-criteria",
-      "content": "Acceptance Criteria:**",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
       "id": "after-sources-are-gathered-infographic-is-auto-generated",
       "content": "After sources are gathered, infographic is auto-generated",
       "status": "pending",
@@ -631,16 +541,6 @@
       "branch": null
     },
     {
-      "id": "acceptance-criteria",
-      "content": "Acceptance Criteria:**",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
       "id": "user-can-filter-sessions-by-date-range",
       "content": "User can filter sessions by date range",
       "status": "pending",
@@ -703,16 +603,6 @@
     {
       "id": "frontend-add-export-buttons-to-session-detail",
       "content": "Frontend: Add export buttons to session detail",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "acceptance-criteria",
-      "content": "Acceptance Criteria:**",
       "status": "pending",
       "background": null,
       "dependencies": [],
@@ -803,16 +693,6 @@
     {
       "id": "frontend-regenerate-infographic-with-new-template",
       "content": "Frontend: Regenerate infographic with new template",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "acceptance-criteria",
-      "content": "Acceptance Criteria:**",
       "status": "pending",
       "background": null,
       "dependencies": [],
@@ -1103,6 +983,16 @@
     {
       "id": "readme-documents-all-features-and-setup-instructions",
       "content": "README documents all features and setup instructions",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "yarn-dev-starts-frontend-on-port-3001",
+      "content": "`yarn dev` starts frontend on port 3001",
       "status": "pending",
       "background": null,
       "dependencies": [],
