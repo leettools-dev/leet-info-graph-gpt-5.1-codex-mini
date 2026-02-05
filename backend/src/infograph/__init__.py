@@ -1,3 +1,5 @@
 """Infograph backend package."""
 
-__all__ = ["svc"]
+from .svc.main import main
+
+__all__ = ["svc", "main"]
