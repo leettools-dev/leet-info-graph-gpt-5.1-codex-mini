@@ -1,8 +1,9 @@
 from __future__ import annotations
 
-from typing import Literal, Optional
+from typing import Literal
 
-from pydantic import BaseModel
+from leettools.common.utils.obj_utils import add_fieldname_constants
+from pydantic import BaseModel, Field
 
 
 class ResearchSessionCreate(BaseModel):
@@ -10,13 +11,14 @@ class ResearchSessionCreate(BaseModel):
 
 
 class ResearchSessionUpdate(BaseModel):
-    status: Optional[Literal["pending", "searching", "generating", "completed", "failed"]]
+    status: Literal["pending", "searching", "generating", "completed", "failed"] | None = None
 
 
+@add_fieldname_constants
 class ResearchSession(BaseModel):
-    session_id: str
-    user_id: str
+    session_id: str = Field(..., json_schema_extra={"primary_key": True})
+    user_id: str = Field(..., json_schema_extra={"index": True})
     prompt: str
     status: Literal["pending", "searching", "generating", "completed", "failed"]
-    created_at: int
-    updated_at: int
+    created_at: int = Field(..., json_schema_extra={"db_type": "UINT64"})
+    updated_at: int = Field(..., json_schema_extra={"db_type": "UINT64"})

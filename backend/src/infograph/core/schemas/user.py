@@ -1,6 +1,7 @@
 from typing import Optional
 
-from pydantic import BaseModel
+from leettools.common.utils.obj_utils import add_fieldname_constants
+from pydantic import BaseModel, Field
 
 
 class UserCreate(BaseModel):
@@ -9,10 +10,11 @@ class UserCreate(BaseModel):
     google_id: str
 
 
+@add_fieldname_constants
 class User(BaseModel):
-    user_id: str
-    email: str
+    user_id: str = Field(..., json_schema_extra={"primary_key": True})
+    email: str = Field(..., json_schema_extra={"index": True})
     name: str
     google_id: str
-    created_at: int
-    updated_at: int
+    created_at: int = Field(..., json_schema_extra={"db_type": "UINT64"})
+    updated_at: int = Field(..., json_schema_extra={"db_type": "UINT64"})

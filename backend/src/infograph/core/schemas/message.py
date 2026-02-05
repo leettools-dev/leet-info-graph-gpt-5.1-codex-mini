@@ -2,7 +2,8 @@ from __future__ import annotations
 
 from typing import Literal
 
-from pydantic import BaseModel
+from leettools.common.utils.obj_utils import add_fieldname_constants
+from pydantic import BaseModel, Field
 
 
 class MessageCreate(BaseModel):
@@ -11,9 +12,10 @@ class MessageCreate(BaseModel):
     content: str
 
 
+@add_fieldname_constants
 class Message(BaseModel):
-    message_id: str
-    session_id: str
+    message_id: str = Field(..., json_schema_extra={"primary_key": True})
+    session_id: str = Field(..., json_schema_extra={"index": True})
     role: Literal["user", "assistant", "system"]
     content: str
-    created_at: int
+    created_at: int = Field(..., json_schema_extra={"db_type": "UINT64"})
