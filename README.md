@@ -4,51 +4,50 @@
 
 ## Overview
 
-# Research Infograph Assistant - Project Goals
+Research Infograph Assistant helps users sign in with Google, submit research prompts, and receive AI-generated infographics backed by curated sources. The stack combines a FastAPI backend, a Vue 3 + TailwindCSS frontend, DuckDB for storage, and Google OAuth for authentication.
 
-## Overview
+## Backend
 
-Build a full-stack web application that lets users sign in with Google, submit research prompts, 
-and receive AI-generated infographics wit...
+### Structure
 
-## Features
+The backend is implemented as a FastAPI service under `backend/src/infograph`. Key directories include:
 
-- Project skeleton: FastAPI service with health endpoint and CLI
+- `svc/`: API entry points and router grouping.
+- `core/schemas/`: Pydantic models for users, sessions, sources, messages, and infographics.
+- `stores/`: Abstract and DuckDB-backed stores for persistence.
+- `services/`: Business logic layers such as auth, search, and infographic generation.
 
-## Getting Started
+### Current Features
 
-### Prerequisites
+- Click-based CLI (`infograph.svc.main`) to start the service with configurable host, port, and log level.
+- FastAPI application factory with OpenAPI docs and permissive CORS middleware.
+- `HealthRouter` exposing `/api/v1/health`, returning the service status and version.
+- Pytest suite covering the health endpoint to ensure the service is online.
 
-* Python 3.11+
-
-### Installation
-
-```bash
-python -m pip install -e backend
-```
-
-# Installation instructions will be added
-```
-
-### Usage
+### Getting Started
 
 ```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -e backend
 python -m infograph.svc.main --port 8000
 ```
 
-# Usage examples will be added
-```
-
-## Development
-
-See .leet/.todos.json for the current development status.
-
-## Testing
+Run the health check to confirm the backend is ready:
 
 ```bash
-# Test instructions will be added
+curl http://localhost:8000/api/v1/health
 ```
 
-## License
+Run backend tests:
 
-MIT
+```bash
+cd backend
+python -m pytest tests/
+```
+
+## Next Up
+
+- scaffold the Vue 3 frontend (Vite + Element Plus + TailwindCSS)
+- connect the frontend to the backend health check
+- implement authentication, session management, and infographic rendering
