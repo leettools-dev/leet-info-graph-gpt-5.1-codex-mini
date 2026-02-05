@@ -48,8 +48,7 @@ python -m pytest tests/
 
 ## Features
 
-- Connected backend health check to show operational status during startup
-- Added skeleton Vue 3 frontend with navigation and health-driven status indicator
+- Added source listing API with JWT-protected session validation, along with a SourceRouter and DuckDB-backed stores to persist real-world research sources.
 
 ## Next Up
 
