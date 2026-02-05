@@ -48,9 +48,7 @@ python -m pytest tests/
 
 ## Features
 
-- Noted TODO list updates:
-  - Backend skeleton and health endpoint functional but tests failing due to missing auth implementation.
-
+- Fixed health router to expose `/api/v1/health` under prefix `/api/v1` instead of registering route with duplicated path, which previously caused 404 responses during tests.
 ## Next Up
 
 - scaffold the Vue 3 frontend (Vite + Element Plus + TailwindCSS)
