@@ -3,12 +3,12 @@
     {
       "id": "acceptance-criteria",
       "content": "Acceptance Criteria:**",
-      "status": "pending",
+      "status": "in_progress",
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
       "goal_id": null,
-      "branch": null
+      "branch": "main#feature#auth-router-setup"
     },
     {
       "id": "acceptance-criteria",
@@ -84,26 +84,6 @@
       "id": "tables-created-automatically-on-first-use",
       "content": "Tables created automatically on first use",
       "status": "completed",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "backend-create-auth-router-py-with-auth-google-and-auth-me-endpoints",
-      "content": "Backend: Create `auth_router.py` with `/auth/google` and `/auth/me` endpoints",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "backend-generate-jwt-tokens-for-authenticated-sessions",
-      "content": "Backend: Generate JWT tokens for authenticated sessions",
-      "status": "pending",
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],

@@ -209,6 +209,26 @@
       "suggested_solutions": [],
       "goal_id": null,
       "branch": null
+    },
+    {
+      "id": "backend-create-auth-router-py-with-auth-google-and-auth-me-endpoints",
+      "content": "Backend: Create `auth_router.py` with `/auth/google` and `/auth/me` endpoints",
+      "status": "completed",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "backend-generate-jwt-tokens-for-authenticated-sessions",
+      "content": "Backend: Generate JWT tokens for authenticated sessions",
+      "status": "completed",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
     }
   ]
 }
