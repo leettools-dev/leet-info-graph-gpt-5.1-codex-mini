@@ -13,7 +13,7 @@ and receive AI-generated infographics wit...
 
 ## Features
 
-*Features will be documented here as they are implemented.*
+- placeholder feature entry (to be detailed later)
 
 ## Getting Started
 

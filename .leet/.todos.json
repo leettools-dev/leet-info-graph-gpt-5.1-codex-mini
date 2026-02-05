@@ -3,20 +3,12 @@
     {
       "id": "tasks",
       "content": "Tasks:**",
-      "status": "pending",
+      "status": "in_progress",
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
-    },
-    {
-      "id": "initialize-python-package-structure-under-backend-src-infograph",
-      "content": "Initialize Python package structure under `backend/src/infograph/`",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": "main#feature#backend-skeleton"
     },
     {
       "id": "create-main-py-with-click-cli-for-starting-server",
@@ -25,7 +17,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "create-api-service-py-with-fastapi-app-cors-middleware",
@@ -34,7 +27,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "create-health-router-py-with-api-v1-health-endpoint",
@@ -43,7 +37,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "add-pyproject-toml-with-dependencies",
@@ -52,7 +47,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "acceptance-criteria",
@@ -61,7 +57,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "python--m-infograph-svc-main---port-8000-starts-the-server",
@@ -70,7 +67,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "get-http-localhost-8000-api-v1-health-returns-status-ok",
@@ -79,7 +77,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "pytest-test-passes-for-health-endpoint",
@@ -88,7 +87,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "tasks",
@@ -97,7 +97,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "initialize-vite-vue-3-project",
@@ -106,7 +107,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "configure-tailwindcss-and-element-plus",
@@ -115,7 +117,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "create-router-with-placeholder-pages-login-chat-history",
@@ -124,7 +127,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "create-request-js-axios-instance-pointing-to-backend",
@@ -133,7 +137,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "create-health-check-api-call-on-app-load",
@@ -142,7 +147,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "acceptance-criteria",
@@ -151,7 +157,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "yarn-dev-starts-frontend-on-port-3001",
@@ -160,7 +167,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "app-shows-backend-connected-status-on-successful-health-check",
@@ -169,7 +177,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "router-navigates-between-placeholder-pages",
@@ -178,7 +187,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "tasks",
@@ -187,7 +197,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "create-abstract-store-interfaces-for-user-session-source-infographic-message",
@@ -196,7 +207,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "implement-duckdb-stores-following-duckdbclient-patterns",
@@ -205,7 +217,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "create-tables-with-proper-schemas",
@@ -214,7 +227,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "write-pytest-tests-for-crud-operations",
@@ -223,7 +237,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "acceptance-criteria",
@@ -232,7 +247,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "can-create-read-update-delete-all-entity-types",
@@ -241,7 +257,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "all-store-tests-pass",
@@ -250,7 +267,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "tables-created-automatically-on-first-use",
@@ -259,7 +277,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "tasks",
@@ -268,7 +287,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "backend-create-auth-service-py-to-verify-google-tokens",
@@ -277,7 +297,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "backend-create-auth-router-py-with-auth-google-and-auth-me-endpoints",
@@ -286,7 +307,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "backend-generate-jwt-tokens-for-authenticated-sessions",
@@ -295,7 +317,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "frontend-create-loginpage-vue-with-google-sign-in-button",
@@ -304,7 +327,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "frontend-create-useauth-js-composable-for-auth-state",
@@ -313,7 +337,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "frontend-create-auth-pinia-store",
@@ -322,7 +347,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "frontend-add-auth-guard-to-router",
@@ -331,7 +357,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "acceptance-criteria",
@@ -340,7 +367,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "user-can-click-sign-in-with-google-button",
@@ -349,7 +377,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "after-google-auth-user-is-redirected-to-chat-page",
@@ -358,7 +387,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "user-info-name-email-is-displayed-in-header",
@@ -367,7 +397,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "unauthenticated-users-are-redirected-to-login-page",
@@ -376,7 +407,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "jwt-token-stored-in-localstorage-sent-with-api-requests",
@@ -385,7 +417,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "tasks",
@@ -394,7 +427,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "backend-create-session-router-py-with-all-session-endpoints",
@@ -403,7 +437,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "backend-implement-session-store-operations",
@@ -412,7 +447,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "frontend-create-session-pinia-store",
@@ -421,7 +457,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "frontend-add-new-research-button-on-chat-page",
@@ -430,7 +467,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "frontend-create-historypage-vue-with-session-list",
@@ -439,7 +477,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "acceptance-criteria",
@@ -448,7 +487,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "user-can-create-a-new-research-session-with-a-prompt",
@@ -457,7 +497,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "user-can-see-list-of-their-sessions-on-history-page",
@@ -466,7 +507,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "user-can-click-a-session-to-view-details",
@@ -475,7 +517,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "user-can-delete-a-session",
@@ -484,7 +527,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "tasks",
@@ -493,7 +537,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "backend-create-message-endpoints-in-session-router-py",
@@ -502,7 +547,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "frontend-create-chatpage-vue-with-full-chat-interface",
@@ -511,7 +557,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "frontend-create-chatinput-vue-component",
@@ -520,7 +567,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "frontend-create-messagelist-vue-and-messagebubble-vue",
@@ -529,7 +577,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "frontend-create-chat-pinia-store",
@@ -538,7 +587,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "acceptance-criteria",
@@ -547,7 +597,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "user-can-type-and-send-messages",
@@ -556,7 +607,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "messages-appear-in-chat-history",
@@ -565,7 +617,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "chat-scrolls-to-latest-message",
@@ -574,7 +627,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "loading-indicator-while-waiting-for-response",
@@ -583,7 +637,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "tasks",
@@ -592,7 +647,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "backend-create-search-service-py-with-web-search-capability",
@@ -601,7 +657,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "backend-parse-search-results-into-source-objects",
@@ -610,7 +667,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "backend-store-sources-linked-to-session",
@@ -619,7 +677,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "backend-create-source-router-py-endpoints",
@@ -628,7 +687,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "frontend-create-sourcelist-vue-and-sourcecard-vue",
@@ -637,7 +697,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "frontend-display-sources-in-session-detail",
@@ -646,7 +707,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "acceptance-criteria",
@@ -655,7 +717,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "when-user-submits-a-research-prompt-web-search-is-triggered",
@@ -664,7 +727,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "sources-are-extracted-and-stored",
@@ -673,7 +737,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "source-list-shows-title-url-snippet-confidence",
@@ -682,7 +747,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "clicking-source-opens-url-in-new-tab",
@@ -691,7 +757,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "tasks",
@@ -700,7 +767,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "backend-create-infographic-service-py-with-template-based-generation",
@@ -709,7 +777,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "backend-create-basic-template-title-key-points-sources",
@@ -718,7 +787,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "backend-generate-png-image-and-save-to-filesystem",
@@ -727,7 +797,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "backend-create-infographic-router-py-endpoints",
@@ -736,7 +807,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "frontend-create-infographicviewer-vue-component",
@@ -745,7 +817,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "frontend-display-infographic-in-session-detail",
@@ -754,7 +827,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "acceptance-criteria",
@@ -763,7 +837,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "after-sources-are-gathered-infographic-is-auto-generated",
@@ -772,7 +847,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "infographic-shows-title-from-prompt-key-bullet-points-source-count",
@@ -781,7 +857,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "png-image-displays-in-session-detail-page",
@@ -790,7 +867,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "image-path-stored-in-database",
@@ -799,7 +877,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "tasks",
@@ -808,7 +887,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "backend-add-query-params-to-list-sessions-date-range-search",
@@ -817,7 +897,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "frontend-add-date-picker-and-search-input-to-history-page",
@@ -826,7 +907,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "frontend-add-pagination",
@@ -835,7 +917,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "acceptance-criteria",
@@ -844,7 +927,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "user-can-filter-sessions-by-date-range",
@@ -853,7 +937,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "user-can-search-sessions-by-prompt-text",
@@ -862,7 +947,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "pagination-works-for-large-session-lists",
@@ -871,7 +957,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "tasks",
@@ -880,7 +967,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "backend-add-export-endpoint-returning-json-or-zip",
@@ -889,7 +977,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "backend-support-png-and-svg-export-for-infographic",
@@ -898,7 +987,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "frontend-create-infographicexport-vue-with-download-buttons",
@@ -907,7 +997,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "frontend-add-export-buttons-to-session-detail",
@@ -916,7 +1007,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "acceptance-criteria",
@@ -925,7 +1017,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "user-can-download-infographic-as-png",
@@ -934,7 +1027,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "user-can-download-infographic-as-svg",
@@ -943,7 +1037,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "user-can-download-session-data-as-json",
@@ -952,7 +1047,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "zip-option-includes-infographic-sources-metadata",
@@ -961,7 +1057,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "tasks",
@@ -970,7 +1067,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "backend-add-template-selection-to-infographic-generation",
@@ -979,7 +1077,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "backend-implement-stats-template-with-bar-pie-charts",
@@ -988,7 +1087,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "backend-implement-timeline-template",
@@ -997,7 +1097,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "frontend-add-template-selector-in-session-detail",
@@ -1006,7 +1107,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "frontend-regenerate-infographic-with-new-template",
@@ -1015,7 +1117,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "acceptance-criteria",
@@ -1024,7 +1127,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "user-can-choose-from-3-templates-basic-stats-timeline",
@@ -1033,7 +1137,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "stats-template-includes-at-least-one-chart",
@@ -1042,7 +1147,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "timeline-template-shows-chronological-info",
@@ -1051,7 +1157,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "regenerate-button-creates-new-infographic",
@@ -1060,7 +1167,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "jwt-tokens-expire-after-24-hours",
@@ -1069,7 +1177,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "api-endpoints-validate-jwt-on-every-request",
@@ -1078,7 +1187,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "google-oauth-client-id-stored-in-environment-variable",
@@ -1087,7 +1197,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "no-secrets-committed-to-repository",
@@ -1096,7 +1207,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "api-responses-under-500ms-for-crud-operations",
@@ -1105,7 +1217,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "infographic-generation-under-30-seconds",
@@ -1114,7 +1227,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "frontend-initial-load-under-2-seconds",
@@ -1123,7 +1237,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "all-interactive-elements-keyboard-accessible",
@@ -1132,7 +1247,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "aria-labels-on-buttons-and-inputs",
@@ -1141,7 +1257,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "color-contrast-meets-wcag-aa",
@@ -1150,7 +1267,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "all-ui-strings-in-i18n-files",
@@ -1159,7 +1277,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "support-english-japanese-chinese",
@@ -1168,7 +1287,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "date-time-formatted-per-locale",
@@ -1177,7 +1297,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "unit-tests-for-each-store-crud-operations",
@@ -1186,7 +1307,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "unit-tests-for-each-service-auth-search-infographic",
@@ -1195,7 +1317,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "integration-tests-for-each-router-endpoint",
@@ -1204,7 +1327,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "run-pytest-tests--v",
@@ -1213,7 +1337,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "component-tests-for-key-components",
@@ -1222,7 +1347,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "e2e-smoke-test-for-login-flow",
@@ -1231,7 +1357,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "run-yarn-test",
@@ -1240,7 +1367,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "all-11-goals-are-implemented-and-tested",
@@ -1249,7 +1377,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "user-can-sign-in-create-research-view-infographic-and-export",
@@ -1258,7 +1387,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "all-pytest-tests-pass",
@@ -1267,7 +1397,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "frontend-builds-without-errors",
@@ -1276,7 +1407,8 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
     },
     {
       "id": "readme-documents-all-features-and-setup-instructions",
@@ -1285,7 +1417,18 @@
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
-      "goal_id": null
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "initialize-python-package-structure-under-backend-src-infograph",
+      "content": "Initialize Python package structure under `backend/src/infograph/`",
+      "status": "in_progress",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
     }
   ]
 }
