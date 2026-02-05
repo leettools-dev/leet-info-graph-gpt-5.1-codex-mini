@@ -3,12 +3,12 @@
     {
       "id": "tasks",
       "content": "Tasks:**",
-      "status": "pending",
+      "status": "in_progress",
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
       "goal_id": null,
-      "branch": null
+      "branch": "main#feature#duckdb-stores"
     },
     {
       "id": "acceptance-criteria",
@@ -53,16 +53,6 @@
     {
       "id": "tasks",
       "content": "Tasks:**",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "create-abstract-store-interfaces-for-user-session-source-infographic-message",
-      "content": "Create abstract store interfaces for User, Session, Source, Infographic, Message",
       "status": "pending",
       "background": null,
       "dependencies": [],

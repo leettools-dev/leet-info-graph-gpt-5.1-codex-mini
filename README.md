@@ -48,9 +48,8 @@ python -m pytest tests/
 
 ## Features
 
-- Backend health check endpoint in place with CLI entry point.
-- FastAPI scaffold configured with CORS middleware and versioned routing.
-- README now includes backend scaffolding notes.
+- Documented backend and frontend health check setup.
+- Added core Pydantic schemas and abstract store interfaces for future DuckDB persistence layers.
 ## Next Up
 
 - scaffold the Vue 3 frontend (Vite + Element Plus + TailwindCSS)
