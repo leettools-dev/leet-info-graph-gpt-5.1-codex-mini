@@ -24,6 +24,12 @@ const routes = [
     meta: { requiresAuth: true }
   },
   {
+    path: '/sessions/:sessionId',
+    name: 'sessionDetail',
+    component: () => import('@/pages/session/SessionDetailPage.vue'),
+    meta: { requiresAuth: true },
+  },
+  {
     path: '/:pathMatch(.*)*',
     redirect: '/login'
   }

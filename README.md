@@ -48,7 +48,7 @@ python -m pytest tests/
 
 ## Features
 
-- Fixed health router to expose `/api/v1/health` under prefix `/api/v1` instead of registering route with duplicated path, which previously caused 404 responses during tests.
+- Added Research Session endpoints with authentication checks and CRUD operations, enabling session creation, listing, retrieval, and deletion for the authenticated user.
 ## Next Up
 
 - scaffold the Vue 3 frontend (Vite + Element Plus + TailwindCSS)
