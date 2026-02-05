@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import os
 import sys
 from pathlib import Path
 
@@ -9,6 +10,11 @@ import pytest
 
 from leettools.settings import SystemSettings
 
+
+pytest_plugins = ("pytest_asyncio",)
+
+os.environ.setdefault("GOOGLE_CLIENT_ID", "test-google")
+os.environ.setdefault("JWT_SECRET", "test-secret")
 
 ROOT_DIR = Path(__file__).resolve().parents[1]
 SRC_DIR = ROOT_DIR / "src"

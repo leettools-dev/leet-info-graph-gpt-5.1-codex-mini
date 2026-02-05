@@ -48,8 +48,7 @@ python -m pytest tests/
 
 ## Features
 
-- Added DuckDB-backed stores for users and research sessions with schema helpers.
-- Added pytest coverage for user and session stores using temporary DuckDB fixtures.
+- Installed project dependencies (including google-auth) via `pip install -e .[dev]` in the backend to ensure CLI and tests run smoothly.
 
 ## Next Up
 
