@@ -1,3 +1,14 @@
 {
-  "todos": []
+  "todos": [
+    {
+      "id": "can-create-read-update-delete-all-entity-types",
+      "content": "Can create, read, update, delete all entity types",
+      "status": "completed",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": "main#feature#fix-health-endpoint"
+    }
+  ]
 }
