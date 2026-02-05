@@ -48,7 +48,12 @@ python -m pytest tests/
 
 ## Features
 
-- Added session message endpoints (`/api/v1/sessions/{session_id}/messages`) with authorization checks in the FastAPI router.
+
+### Backend Skeleton
+- FastAPI app with CORS middleware and OpenAPI docs under `/api/v1`.
+- Click CLI (`infograph.svc.main`) to start the service on a configurable host/port.
+- Health router (`/api/v1/health`) with versioned response for readiness checks.
+- Pytest coverage for the health endpoint to ensure the service stays online.
 ## Next Up
 
 - scaffold the Vue 3 frontend (Vite + Element Plus + TailwindCSS)
