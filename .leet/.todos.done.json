@@ -39,6 +39,26 @@
       "suggested_solutions": [],
       "goal_id": null,
       "branch": null
+    },
+    {
+      "id": "initialize-python-package-structure-under-backend-src-infograph",
+      "content": "Initialize Python package structure under `backend/src/infograph/`",
+      "status": "completed",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "create-main-py-with-click-cli-for-starting-server",
+      "content": "Create `main.py` with Click CLI for starting server",
+      "status": "completed",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
     }
   ]
 }
