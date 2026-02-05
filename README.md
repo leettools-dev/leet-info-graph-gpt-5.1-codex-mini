@@ -49,6 +49,7 @@ python -m pytest tests/
 ## Features
 
 - Added frontend skeleton with Vue 3, Element Plus, Tailwind, and Axios-based health check connection.
+- Documented skeleton setup and health check instructions.
 ## Next Up
 
 - scaffold the Vue 3 frontend (Vite + Element Plus + TailwindCSS)
