@@ -93,17 +93,7 @@
     {
       "id": "backend-create-session-router-py-with-all-session-endpoints",
       "content": "Backend: Create `session_router.py` with all session endpoints",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "frontend-add-new-research-button-on-chat-page",
-      "content": "Frontend: Add \"New Research\" button on Chat page",
-      "status": "pending",
+      "status": "completed",
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
@@ -113,7 +103,7 @@
     {
       "id": "frontend-create-historypage-vue-with-session-list",
       "content": "Frontend: Create `HistoryPage.vue` with session list",
-      "status": "pending",
+      "status": "completed",
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
@@ -123,7 +113,7 @@
     {
       "id": "user-can-create-a-new-research-session-with-a-prompt",
       "content": "User can create a new research session with a prompt",
-      "status": "pending",
+      "status": "completed",
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
@@ -133,7 +123,7 @@
     {
       "id": "user-can-see-list-of-their-sessions-on-history-page",
       "content": "User can see list of their sessions on History page",
-      "status": "pending",
+      "status": "completed",
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
@@ -143,7 +133,7 @@
     {
       "id": "user-can-click-a-session-to-view-details",
       "content": "User can click a session to view details",
-      "status": "pending",
+      "status": "completed",
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
@@ -153,7 +143,7 @@
     {
       "id": "user-can-delete-a-session",
       "content": "User can delete a session",
-      "status": "pending",
+      "status": "completed",
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
@@ -173,7 +163,7 @@
     {
       "id": "frontend-create-chatpage-vue-with-full-chat-interface",
       "content": "Frontend: Create `ChatPage.vue` with full chat interface",
-      "status": "pending",
+      "status": "completed",
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
@@ -924,6 +914,16 @@
       "id": "readme-documents-all-features-and-setup-instructions",
       "content": "README documents all features and setup instructions",
       "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "frontend-add-new-research-button-on-chat-page",
+      "content": "Frontend: Add \"New Research\" button on Chat page",
+      "status": "completed",
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],

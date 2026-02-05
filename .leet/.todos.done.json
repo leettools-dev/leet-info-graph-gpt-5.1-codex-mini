@@ -309,6 +309,26 @@
       "suggested_solutions": [],
       "goal_id": null,
       "branch": null
+    },
+    {
+      "id": "backend-create-session-router-py-with-all-session-endpoints",
+      "content": "Backend: Create `session_router.py` with all session endpoints",
+      "status": "completed",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "frontend-create-session-pinia-store",
+      "content": "Frontend: Create session Pinia store",
+      "status": "completed",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
     }
   ]
 }

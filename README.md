@@ -48,7 +48,7 @@ python -m pytest tests/
 
 ## Features
 
-- Fixed health router to expose `/api/v1/health` under prefix `/api/v1` instead of registering route with duplicated path, which previously caused 404 responses during tests.
+- Added Chat and History interfaces that hook into sessions offering creation, listing, and deletion operations.
 ## Next Up
 
 - scaffold the Vue 3 frontend (Vite + Element Plus + TailwindCSS)
