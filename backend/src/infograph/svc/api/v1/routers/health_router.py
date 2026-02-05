@@ -9,7 +9,7 @@ class HealthRouter(APIRouterBase):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
 
-        @self.get("/api/v1/health")
+        @self.get("/health")
         async def health_status() -> dict[str, str]:
             """Return a simple health response."""
             return {"status": "ok", "version": "1.0.0"}
