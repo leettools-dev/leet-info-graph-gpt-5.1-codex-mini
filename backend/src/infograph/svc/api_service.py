@@ -27,6 +27,6 @@ def create_app() -> FastAPI:
     )
 
     api_router = ServiceAPIRouter()
-    app.include_router(api_router)
+    app.include_router(api_router, prefix="/api/v1")
 
     return app
