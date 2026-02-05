@@ -998,7 +998,7 @@
       "dependencies": [],
       "suggested_solutions": [],
       "goal_id": null,
-      "branch": null
+      "branch": "main#feature#frontend-auth"
     }
   ]
 }
