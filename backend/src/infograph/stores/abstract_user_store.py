@@ -16,6 +16,10 @@ class AbstractUserStore(ABC):
         raise NotImplementedError
 
     @abstractmethod
+    async def get(self, user_id: str) -> User | None:
+        raise NotImplementedError
+
+    @abstractmethod
     async def list(self) -> Iterable[User]:
         raise NotImplementedError
 
@@ -26,3 +30,8 @@ class AbstractUserStore(ABC):
     @abstractmethod
     async def delete(self, user_id: str) -> None:
         raise NotImplementedError
+
+
+__all__ = [
+    "AbstractUserStore",
+]
