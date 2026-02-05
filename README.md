@@ -48,8 +48,8 @@ python -m pytest tests/
 
 ## Features
 
-- Added DuckDB-backed stores for Users, ResearchSessions, Sources, Messages, and Infographics along with Pydantic schemas that define the table metadata.
-- Implemented comprehensive pytest coverage for all CRUD operations using the shared DuckDB client configuration.
+- Added DuckDB-backed stores for users and research sessions with schema helpers.
+- Added pytest coverage for user and session stores using temporary DuckDB fixtures.
 
 ## Next Up
 

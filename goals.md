@@ -622,12 +622,12 @@ The project is complete when:
 - [ ] Router navigates between placeholder pages
 - [ ] Tasks:**
 - [ ] Create abstract store interfaces for User, Session, Source, Infographic, Message
-- [ ] Implement DuckDB stores following `DuckDBClient` patterns
+- [x] Implement DuckDB stores following `DuckDBClient` patterns
 - [ ] Create tables with proper schemas
-- [ ] Write pytest tests for CRUD operations
+- [x] Write pytest tests for CRUD operations
 - [ ] Acceptance Criteria:**
-- [ ] Can create, read, update, delete all entity types
-- [ ] All store tests pass
+- [x] Can create, read, update, delete all entity types
+- [x] All store tests pass
 - [ ] Tables created automatically on first use
 - [ ] Tasks:**
 - [ ] Backend: Create `auth_service.py` to verify Google tokens

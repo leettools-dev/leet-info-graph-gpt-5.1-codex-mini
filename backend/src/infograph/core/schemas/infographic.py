@@ -9,6 +9,7 @@ from pydantic import BaseModel, Field
 class InfographicCreate(BaseModel):
     session_id: str
     template_type: str
+    image_path: str
     layout_data: dict[str, Any]
 
 

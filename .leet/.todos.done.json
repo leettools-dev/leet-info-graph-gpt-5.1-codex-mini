@@ -179,6 +179,36 @@
       "suggested_solutions": [],
       "goal_id": null,
       "branch": null
+    },
+    {
+      "id": "tasks",
+      "content": "Tasks:**",
+      "status": "completed",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": "main#feature#database-stores"
+    },
+    {
+      "id": "backend-implement-session-store-operations",
+      "content": "Backend: Implement session store operations",
+      "status": "completed",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "implement-duckdb-stores-following-duckdbclient-patterns",
+      "content": "Implement DuckDB stores following `DuckDBClient` patterns",
+      "status": "completed",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
     }
   ]
 }
