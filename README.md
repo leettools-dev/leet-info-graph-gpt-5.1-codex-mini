@@ -50,6 +50,7 @@ python -m pytest tests/
 
 - Added auth flow skeleton with `useAuth` composable, `auth` Pinia store, and router guards for protected pages.
 - Added placeholder Login action that stores mock user/token for now.
+- Added DuckDB-backed stores for sources, infographics, and messages with automatic table creation and pytest coverage to ensure CRUD workflows stay reliable.
 ## Next Up
 
 - scaffold the Vue 3 frontend (Vite + Element Plus + TailwindCSS)

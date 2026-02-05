@@ -259,6 +259,46 @@
       "suggested_solutions": [],
       "goal_id": null,
       "branch": "main#feature#frontend-auth-flow"
+    },
+    {
+      "id": "frontend-create-useauth-js-composable-for-auth-state",
+      "content": "Frontend: Create `useAuth.js` composable for auth state",
+      "status": "completed",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": "main#feature#auth-state"
+    },
+    {
+      "id": "create-tables-with-proper-schemas",
+      "content": "Create tables with proper schemas",
+      "status": "completed",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "write-pytest-tests-for-crud-operations",
+      "content": "Write pytest tests for CRUD operations",
+      "status": "completed",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "all-store-tests-pass",
+      "content": "All store tests pass",
+      "status": "completed",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
     }
   ]
 }
