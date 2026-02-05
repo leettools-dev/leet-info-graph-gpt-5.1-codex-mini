@@ -1,24 +1,3 @@
 {
-  "todos": [
-    {
-      "id": "tasks",
-      "content": "Tasks:**",
-      "status": "completed",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": "main#feature#backend-skeleton"
-    },
-    {
-      "id": "initialize-python-package-structure-under-backend-src-infograph",
-      "content": "Initialize Python package structure under `backend/src/infograph/`",
-      "status": "completed",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": "main#feature#backend-skeleton"
-    }
-  ]
+  "todos": []
 }

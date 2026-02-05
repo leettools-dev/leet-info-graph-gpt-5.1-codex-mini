@@ -1,44 +1,14 @@
 {
   "todos": [
     {
-      "id": "2",
-      "content": "Implement frontend skeleton connecting to backend health check",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "3",
-      "content": "Implement DuckDB stores for users, sessions, sources, infographics, messages",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "4",
-      "content": "Implement Google OAuth login for backend and frontend",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "1",
-      "content": "Implement backend skeleton with health endpoint and CLI entry point",
+      "id": "backend-skeleton",
+      "content": "backend-skeleton",
       "status": "in_progress",
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
       "goal_id": null,
-      "branch": null
+      "branch": "main#feature#backend-skeleton"
     }
   ]
 }
