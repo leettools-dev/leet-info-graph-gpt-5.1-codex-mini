@@ -48,7 +48,7 @@ python -m pytest tests/
 
 ## Features
 
-- Added Research Session endpoints with authentication checks and CRUD operations, enabling session creation, listing, retrieval, and deletion for the authenticated user.
+- Added session message endpoints (`/api/v1/sessions/{session_id}/messages`) with authorization checks in the FastAPI router.
 ## Next Up
 
 - scaffold the Vue 3 frontend (Vite + Element Plus + TailwindCSS)

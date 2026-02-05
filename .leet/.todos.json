@@ -541,6 +541,16 @@
       "branch": null
     },
     {
+      "id": "backend-create-message-endpoints-in-session-router-py",
+      "content": "Backend: Create message endpoints in `session_router.py`",
+      "status": "completed",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": "main#feature#messages-api"
+    },
+    {
       "id": "frontend-create-chatpage-vue-with-full-chat-interface",
       "content": "Frontend: Create `ChatPage.vue` with full chat interface",
       "status": "completed",
@@ -1404,26 +1414,6 @@
       "id": "readme-documents-all-features-and-setup-instructions",
       "content": "README documents all features and setup instructions",
       "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "session-management",
-      "content": "session-management",
-      "status": "in_progress",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": "main#feature#session-management"
-    },
-    {
-      "id": "backend-create-message-endpoints-in-session-router-py",
-      "content": "Backend: Create message endpoints in `session_router.py`",
-      "status": "in_progress",
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
