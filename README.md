@@ -48,12 +48,9 @@ python -m pytest tests/
 
 ## Features
 
+- Connected backend health check to show operational status during startup
+- Added skeleton Vue 3 frontend with navigation and health-driven status indicator
 
-### Backend Skeleton
-- FastAPI app with CORS middleware and OpenAPI docs under `/api/v1`.
-- Click CLI (`infograph.svc.main`) to start the service on a configurable host/port.
-- Health router (`/api/v1/health`) with versioned response for readiness checks.
-- Pytest coverage for the health endpoint to ensure the service stays online.
 ## Next Up
 
 - scaffold the Vue 3 frontend (Vite + Element Plus + TailwindCSS)
