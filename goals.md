@@ -604,7 +604,7 @@ The project is complete when:
 - [ ] Initialize Python package structure under `backend/src/infograph/`
 - [ ] Create `main.py` with Click CLI for starting server
 - [ ] Create `api_service.py` with FastAPI app, CORS middleware
-- [ ] Create `health_router.py` with `/api/v1/health` endpoint
+- [x] Create `health_router.py` with `/api/v1/health` endpoint
 - [ ] Add `pyproject.toml` with dependencies
 - [ ] Acceptance Criteria:**
 - [ ] `python -m infograph.svc.main --port 8000` starts the server
