@@ -14,11 +14,14 @@ from infograph.core.schemas import (
     User,
 )
 from infograph.services.auth_service import AuthService
+from infograph.services.search_service import SearchService
 from infograph.stores.abstract_message_store import AbstractMessageStore
 from infograph.stores.abstract_session_store import AbstractSessionStore
+from infograph.stores.abstract_source_store import AbstractSourceStore
 from infograph.stores.abstract_user_store import AbstractUserStore
 from infograph.stores.duckdb.message_store_duckdb import MessageStoreDuckDB
 from infograph.stores.duckdb.session_store_duckdb import SessionStoreDuckDB
+from infograph.stores.duckdb.source_store_duckdb import SourceStoreDuckDB
 from infograph.stores.duckdb.user_store_duckdb import UserStoreDuckDB
 from infograph.svc.api_router_base import APIRouterBase
 
@@ -42,26 +45,19 @@ class SessionRouter(APIRouterBase):
         *,
         session_store: AbstractSessionStore | None = None,
         message_store: AbstractMessageStore | None = None,
+        source_store: AbstractSourceStore | None = None,
         user_store: AbstractUserStore | None = None,
         auth_service: AuthService | None = None,
+        search_service: SearchService | None = None,
     ) -> None:
         super().__init__()
         self.session_store = session_store or SessionStoreDuckDB()
         self.user_store = user_store or UserStoreDuckDB(self.session_store.settings)
         self.message_store = message_store or MessageStoreDuckDB(self.session_store.settings)
+        self.source_store = source_store or SourceStoreDuckDB(self.session_store.settings)
         self.auth_service = auth_service or AuthService(self.user_store)
+        self.search_service = search_service or SearchService(self.source_store)
         self._register_routes()
-
-    async def _get_current_user(
-        self,
-        authorization: str | None = Header(None, alias="Authorization"),
-    ) -> User:
-        """Resolve the current user from a bearer token."""
-        token = _extract_bearer_token(authorization)
-        try:
-            return await self.auth_service.get_user_from_token(token)
-        except ValueError as exc:
-            raise HTTPException(status_code=401, detail=str(exc)) from exc
 
     async def _get_current_user(
         self,
@@ -89,7 +85,9 @@ class SessionRouter(APIRouterBase):
             current_user: User = Depends(self._get_current_user),
         ) -> ResearchSession:
             """Create a new research session for the authenticated user."""
-            return await self.session_store.create(payload, current_user.user_id)
+            session = await self.session_store.create(payload, current_user.user_id)
+            await self.search_service.gather_sources(session.session_id, payload.prompt)
+            return session
 
         @self.get("", response_model=list[ResearchSession])
         async def list_sessions(
