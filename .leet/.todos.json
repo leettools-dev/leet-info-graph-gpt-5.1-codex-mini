@@ -101,16 +101,6 @@
       "branch": null
     },
     {
-      "id": "frontend-create-session-pinia-store",
-      "content": "Frontend: Create session Pinia store",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
       "id": "frontend-add-new-research-button-on-chat-page",
       "content": "Frontend: Add \"New Research\" button on Chat page",
       "status": "pending",
