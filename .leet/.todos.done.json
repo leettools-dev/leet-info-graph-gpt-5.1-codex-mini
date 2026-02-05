@@ -99,6 +99,66 @@
       "suggested_solutions": [],
       "goal_id": null,
       "branch": null
+    },
+    {
+      "id": "feature-backend-skeleton",
+      "content": "feature/backend-skeleton",
+      "status": "completed",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": "main#feature#frontend-skeleton"
+    },
+    {
+      "id": "create-request-js-axios-instance-pointing-to-backend",
+      "content": "Create `request.js` Axios instance pointing to backend",
+      "status": "completed",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "create-health-check-api-call-on-app-load",
+      "content": "Create health check API call on app load",
+      "status": "completed",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "create-router-with-placeholder-pages-login-chat-history",
+      "content": "Create router with placeholder pages (Login, Chat, History)",
+      "status": "completed",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "app-shows-backend-connected-status-on-successful-health-check",
+      "content": "App shows \"Backend Connected\" status on successful health check",
+      "status": "completed",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "router-navigates-between-placeholder-pages",
+      "content": "Router navigates between placeholder pages",
+      "status": "completed",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
     }
   ]
 }
