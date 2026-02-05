@@ -48,8 +48,8 @@ python -m pytest tests/
 
 ## Features
 
-- Added frontend skeleton with Vue 3, Element Plus, Tailwind, and Axios-based health check connection.
-- Documented skeleton setup and health check instructions.
+- Added auth flow skeleton with `useAuth` composable, `auth` Pinia store, and router guards for protected pages.
+- Added placeholder Login action that stores mock user/token for now.
 ## Next Up
 
 - scaffold the Vue 3 frontend (Vite + Element Plus + TailwindCSS)
