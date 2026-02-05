@@ -48,7 +48,8 @@ python -m pytest tests/
 
 ## Features
 
-- Added service package placeholder for future business logic implementations.
+- Added DuckDB-backed stores for Users, ResearchSessions, Sources, Messages, and Infographics along with Pydantic schemas that define the table metadata.
+- Implemented comprehensive pytest coverage for all CRUD operations using the shared DuckDB client configuration.
 
 ## Next Up
 

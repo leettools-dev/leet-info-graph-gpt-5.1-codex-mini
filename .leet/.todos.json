@@ -8,7 +8,7 @@
       "dependencies": [],
       "suggested_solutions": [],
       "goal_id": null,
-      "branch": "main#feature#duckdb-stores"
+      "branch": "main#feature#database-stores"
     },
     {
       "id": "acceptance-criteria",
@@ -53,16 +53,6 @@
     {
       "id": "tasks",
       "content": "Tasks:**",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "implement-duckdb-stores-following-duckdbclient-patterns",
-      "content": "Implement DuckDB stores following `DuckDBClient` patterns",
       "status": "pending",
       "background": null,
       "dependencies": [],
@@ -1254,6 +1244,16 @@
       "id": "readme-documents-all-features-and-setup-instructions",
       "content": "README documents all features and setup instructions",
       "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "implement-duckdb-stores-following-duckdbclient-patterns",
+      "content": "Implement DuckDB stores following `DuckDBClient` patterns",
+      "status": "in_progress",
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
