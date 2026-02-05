@@ -141,16 +141,6 @@
       "branch": null
     },
     {
-      "id": "backend-create-auth-service-py-to-verify-google-tokens",
-      "content": "Backend: Create `auth_service.py` to verify Google tokens",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
       "id": "backend-create-auth-router-py-with-auth-google-and-auth-me-endpoints",
       "content": "Backend: Create `auth_router.py` with `/auth/google` and `/auth/me` endpoints",
       "status": "pending",

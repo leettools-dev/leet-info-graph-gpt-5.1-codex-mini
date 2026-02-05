@@ -48,8 +48,8 @@ python -m pytest tests/
 
 ## Features
 
-- Documented backend and frontend health check setup.
-- Added core Pydantic schemas and abstract store interfaces for future DuckDB persistence layers.
+- Added service package placeholder for future business logic implementations.
+
 ## Next Up
 
 - scaffold the Vue 3 frontend (Vite + Element Plus + TailwindCSS)
