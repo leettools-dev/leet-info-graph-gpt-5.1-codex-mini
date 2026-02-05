@@ -229,6 +229,16 @@
       "suggested_solutions": [],
       "goal_id": null,
       "branch": null
+    },
+    {
+      "id": "acceptance-criteria",
+      "content": "Acceptance Criteria:**",
+      "status": "completed",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": "main#feature#auth-router-setup"
     }
   ]
 }

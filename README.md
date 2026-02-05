@@ -48,8 +48,8 @@ python -m pytest tests/
 
 ## Features
 
-- Installed project dependencies (including google-auth) via `pip install -e .[dev]` in the backend to ensure CLI and tests run smoothly.
-
+- Added frontend skeleton with Vue 3, Element Plus, Tailwind, and Axios-based health check connection.
+- Documented skeleton setup and health check instructions.
 ## Next Up
 
 - scaffold the Vue 3 frontend (Vite + Element Plus + TailwindCSS)
