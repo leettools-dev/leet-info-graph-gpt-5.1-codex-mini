@@ -48,9 +48,9 @@ python -m pytest tests/
 
 ## Features
 
-- **Backend health endpoint** – FastAPI serves `/api/v1/health`, returning `{ "status": "ok", "version": "1.0.0" }`. Use `curl http://localhost:8000/api/v1/health` to verify the service is online and ready for traffic.
-- **Frontend skeleton** – Vue 3 + Element Plus + TailwindCSS with router views for Login, Chat, and History. `App.vue` shows live backend connectivity status, the navigation bar routes between pages, and the shared `src/utils/request.js` Axios client plus `src/api/health.js` handle the health check on startup. Start the UI with `yarn dev --host 0.0.0.0 --port 3001` after setting `VITE_API_BASE` and `VITE_GOOGLE_CLIENT_ID` in a `.env` file.
-
+- Backend health check endpoint in place with CLI entry point.
+- FastAPI scaffold configured with CORS middleware and versioned routing.
+- README now includes backend scaffolding notes.
 ## Next Up
 
 - scaffold the Vue 3 frontend (Vite + Element Plus + TailwindCSS)
