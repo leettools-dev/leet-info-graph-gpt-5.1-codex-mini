@@ -19,6 +19,26 @@
       "suggested_solutions": [],
       "goal_id": null,
       "branch": "main#feature#session-management"
+    },
+    {
+      "id": "backend-create-message-endpoints-in-session-router-py",
+      "content": "Backend: Create message endpoints in `session_router.py`",
+      "status": "completed",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": "main#feature#messages-api"
+    },
+    {
+      "id": "task-1",
+      "content": "Implement Goal 1: Backend Skeleton with health endpoint and CLI",
+      "status": "completed",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
     }
   ]
 }
