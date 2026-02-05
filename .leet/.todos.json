@@ -1,24 +1,14 @@
 {
   "todos": [
     {
-      "id": "create-health-router-py-with-api-v1-health-endpoint",
-      "content": "Create `health_router.py` with `/api/v1/health` endpoint",
-      "status": "completed",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": "main#feature#health-check"
-    },
-    {
       "id": "add-pyproject-toml-with-dependencies",
       "content": "Add `pyproject.toml` with dependencies",
-      "status": "pending",
+      "status": "in_progress",
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
       "goal_id": null,
-      "branch": null
+      "branch": "main#feature#source-endpoints"
     },
     {
       "id": "acceptance-criteria",
