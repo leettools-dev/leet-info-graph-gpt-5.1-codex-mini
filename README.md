@@ -49,7 +49,11 @@ python -m pytest tests/
 ## Features
 
 - Backend skeleton updated with FastAPI base router utilities.
-
+- Backend health check endpoint with automated test.
+- Backend CLI entry point `infograph.svc.main` ready to launch the app with Click and Uvicorn.
+- DuckDB stores implemented with tests covering CRUD operations for all entities.
+- Frontend skeleton with Vue 3, Pinia, Element Plus, health check integration, and the Google login placeholder flow.
+- Session management API plus frontend session store, history, and chat placeholders ready for future enhancements.
 ## Next Up
 
 - scaffold the Vue 3 frontend (Vite + Element Plus + TailwindCSS)
