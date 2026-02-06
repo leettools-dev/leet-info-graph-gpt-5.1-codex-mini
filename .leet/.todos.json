@@ -1,8 +1,18 @@
 {
   "todos": [
     {
-      "id": "3",
-      "content": "Setup DuckDB stores for users, sessions, sources, infographics, messages",
+      "id": "acceptance-criteria",
+      "content": "Acceptance Criteria:**",
+      "status": "in_progress",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "python--m-infograph-svc-main---port-8000-starts-the-server",
+      "content": "`python -m infograph.svc.main --port 8000` starts the server",
       "status": "pending",
       "background": null,
       "dependencies": [],
@@ -11,8 +21,1218 @@
       "branch": null
     },
     {
-      "id": "4",
-      "content": "Add infographic viewer components and integrate session detail",
+      "id": "get-http-localhost-8000-api-v1-health-returns-status-ok",
+      "content": "`GET http://localhost:8000/api/v1/health` returns `{\"status\": \"ok\"}`",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "pytest-test-passes-for-health-endpoint",
+      "content": "pytest test passes for health endpoint",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "initialize-vite-vue-3-project",
+      "content": "Initialize Vite + Vue 3 project",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "configure-tailwindcss-and-element-plus",
+      "content": "Configure TailwindCSS and Element Plus",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "create-router-with-placeholder-pages-login-chat-history",
+      "content": "Create router with placeholder pages (Login, Chat, History)",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "create-request-js-axios-instance-pointing-to-backend",
+      "content": "Create `request.js` Axios instance pointing to backend",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "create-health-check-api-call-on-app-load",
+      "content": "Create health check API call on app load",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "acceptance-criteria",
+      "content": "Acceptance Criteria:**",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "yarn-dev-starts-frontend-on-port-3001",
+      "content": "`yarn dev` starts frontend on port 3001",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "app-shows-backend-connected-status-on-successful-health-check",
+      "content": "App shows \"Backend Connected\" status on successful health check",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "router-navigates-between-placeholder-pages",
+      "content": "Router navigates between placeholder pages",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "create-abstract-store-interfaces-for-user-session-source-infographic-message",
+      "content": "Create abstract store interfaces for User, Session, Source, Infographic, Message",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "implement-duckdb-stores-following-duckdbclient-patterns",
+      "content": "Implement DuckDB stores following `DuckDBClient` patterns",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "create-tables-with-proper-schemas",
+      "content": "Create tables with proper schemas",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "write-pytest-tests-for-crud-operations",
+      "content": "Write pytest tests for CRUD operations",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "acceptance-criteria",
+      "content": "Acceptance Criteria:**",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "can-create-read-update-delete-all-entity-types",
+      "content": "Can create, read, update, delete all entity types",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "all-store-tests-pass",
+      "content": "All store tests pass",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "tables-created-automatically-on-first-use",
+      "content": "Tables created automatically on first use",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "backend-create-auth-service-py-to-verify-google-tokens",
+      "content": "Backend: Create `auth_service.py` to verify Google tokens",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "backend-create-auth-router-py-with-auth-google-and-auth-me-endpoints",
+      "content": "Backend: Create `auth_router.py` with `/auth/google` and `/auth/me` endpoints",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "backend-generate-jwt-tokens-for-authenticated-sessions",
+      "content": "Backend: Generate JWT tokens for authenticated sessions",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "frontend-create-loginpage-vue-with-google-sign-in-button",
+      "content": "Frontend: Create `LoginPage.vue` with Google Sign-In button",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "frontend-create-useauth-js-composable-for-auth-state",
+      "content": "Frontend: Create `useAuth.js` composable for auth state",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "frontend-create-auth-pinia-store",
+      "content": "Frontend: Create `auth` Pinia store",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "frontend-add-auth-guard-to-router",
+      "content": "Frontend: Add auth guard to router",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "acceptance-criteria",
+      "content": "Acceptance Criteria:**",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "user-can-click-sign-in-with-google-button",
+      "content": "User can click \"Sign in with Google\" button",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "after-google-auth-user-is-redirected-to-chat-page",
+      "content": "After Google auth, user is redirected to Chat page",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "user-info-name-email-is-displayed-in-header",
+      "content": "User info (name, email) is displayed in header",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "unauthenticated-users-are-redirected-to-login-page",
+      "content": "Unauthenticated users are redirected to Login page",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "jwt-token-stored-in-localstorage-sent-with-api-requests",
+      "content": "JWT token stored in localStorage, sent with API requests",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "backend-implement-session-store-operations",
+      "content": "Backend: Implement session store operations",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "frontend-create-session-pinia-store",
+      "content": "Frontend: Create session Pinia store",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "frontend-add-new-research-button-on-chat-page",
+      "content": "Frontend: Add \"New Research\" button on Chat page",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "frontend-create-historypage-vue-with-session-list",
+      "content": "Frontend: Create `HistoryPage.vue` with session list",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "acceptance-criteria",
+      "content": "Acceptance Criteria:**",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "user-can-create-a-new-research-session-with-a-prompt",
+      "content": "User can create a new research session with a prompt",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "user-can-see-list-of-their-sessions-on-history-page",
+      "content": "User can see list of their sessions on History page",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "user-can-click-a-session-to-view-details",
+      "content": "User can click a session to view details",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "user-can-delete-a-session",
+      "content": "User can delete a session",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "backend-create-message-endpoints-in-session-router-py",
+      "content": "Backend: Create message endpoints in `session_router.py`",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "frontend-create-chatpage-vue-with-full-chat-interface",
+      "content": "Frontend: Create `ChatPage.vue` with full chat interface",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "frontend-create-chatinput-vue-component",
+      "content": "Frontend: Create `ChatInput.vue` component",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "frontend-create-messagelist-vue-and-messagebubble-vue",
+      "content": "Frontend: Create `MessageList.vue` and `MessageBubble.vue`",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "frontend-create-chat-pinia-store",
+      "content": "Frontend: Create chat Pinia store",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "acceptance-criteria",
+      "content": "Acceptance Criteria:**",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "user-can-type-and-send-messages",
+      "content": "User can type and send messages",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "messages-appear-in-chat-history",
+      "content": "Messages appear in chat history",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "chat-scrolls-to-latest-message",
+      "content": "Chat scrolls to latest message",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "loading-indicator-while-waiting-for-response",
+      "content": "Loading indicator while waiting for response",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "backend-create-search-service-py-with-web-search-capability",
+      "content": "Backend: Create `search_service.py` with web search capability",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "backend-parse-search-results-into-source-objects",
+      "content": "Backend: Parse search results into Source objects",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "backend-store-sources-linked-to-session",
+      "content": "Backend: Store sources linked to session",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "backend-create-source-router-py-endpoints",
+      "content": "Backend: Create `source_router.py` endpoints",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "acceptance-criteria",
+      "content": "Acceptance Criteria:**",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "when-user-submits-a-research-prompt-web-search-is-triggered",
+      "content": "When user submits a research prompt, web search is triggered",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "sources-are-extracted-and-stored",
+      "content": "Sources are extracted and stored",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "source-list-shows-title-url-snippet-confidence",
+      "content": "Source list shows title, URL, snippet, confidence",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "clicking-source-opens-url-in-new-tab",
+      "content": "Clicking source opens URL in new tab",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "backend-create-infographic-service-py-with-template-based-generation",
+      "content": "Backend: Create `infographic_service.py` with template-based generation",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "backend-create-basic-template-title-key-points-sources",
+      "content": "Backend: Create basic template (title, key points, sources)",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "backend-generate-png-image-and-save-to-filesystem",
+      "content": "Backend: Generate PNG image and save to filesystem",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "backend-create-infographic-router-py-endpoints",
+      "content": "Backend: Create `infographic_router.py` endpoints",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "frontend-create-infographicviewer-vue-component",
+      "content": "Frontend: Create `InfographicViewer.vue` component",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "frontend-display-infographic-in-session-detail",
+      "content": "Frontend: Display infographic in session detail",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "acceptance-criteria",
+      "content": "Acceptance Criteria:**",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "after-sources-are-gathered-infographic-is-auto-generated",
+      "content": "After sources are gathered, infographic is auto-generated",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "infographic-shows-title-from-prompt-key-bullet-points-source-count",
+      "content": "Infographic shows title (from prompt), key bullet points, source count",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "png-image-displays-in-session-detail-page",
+      "content": "PNG image displays in session detail page",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "image-path-stored-in-database",
+      "content": "Image path stored in database",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "backend-add-query-params-to-list-sessions-date-range-search",
+      "content": "Backend: Add query params to list sessions (date range, search)",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "frontend-add-date-picker-and-search-input-to-history-page",
+      "content": "Frontend: Add date picker and search input to History page",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "frontend-add-pagination",
+      "content": "Frontend: Add pagination",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "acceptance-criteria",
+      "content": "Acceptance Criteria:**",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "user-can-filter-sessions-by-date-range",
+      "content": "User can filter sessions by date range",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "user-can-search-sessions-by-prompt-text",
+      "content": "User can search sessions by prompt text",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "pagination-works-for-large-session-lists",
+      "content": "Pagination works for large session lists",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "backend-add-export-endpoint-returning-json-or-zip",
+      "content": "Backend: Add export endpoint returning JSON or ZIP",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "backend-support-png-and-svg-export-for-infographic",
+      "content": "Backend: Support PNG and SVG export for infographic",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "frontend-create-infographicexport-vue-with-download-buttons",
+      "content": "Frontend: Create `InfographicExport.vue` with download buttons",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "frontend-add-export-buttons-to-session-detail",
+      "content": "Frontend: Add export buttons to session detail",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "acceptance-criteria",
+      "content": "Acceptance Criteria:**",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "user-can-download-infographic-as-png",
+      "content": "User can download infographic as PNG",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "user-can-download-infographic-as-svg",
+      "content": "User can download infographic as SVG",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "user-can-download-session-data-as-json",
+      "content": "User can download session data as JSON",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "zip-option-includes-infographic-sources-metadata",
+      "content": "ZIP option includes infographic + sources + metadata",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "backend-add-template-selection-to-infographic-generation",
+      "content": "Backend: Add template selection to infographic generation",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "backend-implement-stats-template-with-bar-pie-charts",
+      "content": "Backend: Implement \"stats\" template with bar/pie charts",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "backend-implement-timeline-template",
+      "content": "Backend: Implement \"timeline\" template",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "frontend-add-template-selector-in-session-detail",
+      "content": "Frontend: Add template selector in session detail",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "frontend-regenerate-infographic-with-new-template",
+      "content": "Frontend: Regenerate infographic with new template",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "acceptance-criteria",
+      "content": "Acceptance Criteria:**",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "user-can-choose-from-3-templates-basic-stats-timeline",
+      "content": "User can choose from 3 templates: basic, stats, timeline",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "stats-template-includes-at-least-one-chart",
+      "content": "Stats template includes at least one chart",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "timeline-template-shows-chronological-info",
+      "content": "Timeline template shows chronological info",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "regenerate-button-creates-new-infographic",
+      "content": "Regenerate button creates new infographic",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "jwt-tokens-expire-after-24-hours",
+      "content": "JWT tokens expire after 24 hours",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "api-endpoints-validate-jwt-on-every-request",
+      "content": "API endpoints validate JWT on every request",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "google-oauth-client-id-stored-in-environment-variable",
+      "content": "Google OAuth client ID stored in environment variable",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "no-secrets-committed-to-repository",
+      "content": "No secrets committed to repository",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "api-responses-under-500ms-for-crud-operations",
+      "content": "API responses under 500ms for CRUD operations",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "infographic-generation-under-30-seconds",
+      "content": "Infographic generation under 30 seconds",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "frontend-initial-load-under-2-seconds",
+      "content": "Frontend initial load under 2 seconds",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "all-interactive-elements-keyboard-accessible",
+      "content": "All interactive elements keyboard accessible",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "aria-labels-on-buttons-and-inputs",
+      "content": "ARIA labels on buttons and inputs",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "color-contrast-meets-wcag-aa",
+      "content": "Color contrast meets WCAG AA",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "all-ui-strings-in-i18n-files",
+      "content": "All UI strings in i18n files",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "support-english-japanese-chinese",
+      "content": "Support English, Japanese, Chinese",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "date-time-formatted-per-locale",
+      "content": "Date/time formatted per locale",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "unit-tests-for-each-store-crud-operations",
+      "content": "Unit tests for each store (CRUD operations)",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "unit-tests-for-each-service-auth-search-infographic",
+      "content": "Unit tests for each service (auth, search, infographic)",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "integration-tests-for-each-router-endpoint",
+      "content": "Integration tests for each router endpoint",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "run-pytest-tests--v",
+      "content": "Run: `pytest tests/ -v`",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "component-tests-for-key-components",
+      "content": "Component tests for key components",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "e2e-smoke-test-for-login-flow",
+      "content": "E2E smoke test for login flow",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "run-yarn-test",
+      "content": "Run: `yarn test`",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "all-11-goals-are-implemented-and-tested",
+      "content": "All 11 goals are implemented and tested",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "user-can-sign-in-create-research-view-infographic-and-export",
+      "content": "User can sign in, create research, view infographic, and export",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "all-pytest-tests-pass",
+      "content": "All pytest tests pass",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "frontend-builds-without-errors",
+      "content": "Frontend builds without errors",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "readme-documents-all-features-and-setup-instructions",
+      "content": "README documents all features and setup instructions",
       "status": "pending",
       "background": null,
       "dependencies": [],
