@@ -391,16 +391,6 @@
       "branch": null
     },
     {
-      "id": "backend-create-session-router-py-with-all-session-endpoints",
-      "content": "Backend: Create `session_router.py` with all session endpoints",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
       "id": "backend-implement-session-store-operations",
       "content": "Backend: Implement session store operations",
       "status": "pending",
@@ -1299,6 +1289,16 @@
       "suggested_solutions": [],
       "goal_id": null,
       "branch": null
+    },
+    {
+      "id": "frontend-source-list",
+      "content": "frontend-source-list",
+      "status": "in_progress",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": "main#feature#frontend-source-list"
     }
   ]
 }
