@@ -48,7 +48,7 @@ python -m pytest tests/
 
 ## Features
 
-- Added session management router with CRUD operations, JWT-based authentication, and chat messaging endpoints.
+- Added Vue router with guarded routes for login, chat, history, and session details.
 
 ## Next Up
 
