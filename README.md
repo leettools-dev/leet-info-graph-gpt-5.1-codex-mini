@@ -48,15 +48,7 @@ python -m pytest tests/
 
 ## Features
 
-- Added backend skeleton with health endpoint
-- Set up frontend skeleton with router, placeholder pages, and health check
-- Added initial DuckDB stores and CRUD tests
-- Implemented Google OAuth backend authentication and JWT issuance
-- Built research session CRUD endpoints, frontend flow, and chat interface
-- Added web search, source listing, and infographic generation endpoints
-- Implemented history filtering, export, and advanced infographic templates
-- Documented authentication flow and usage in README
-- Expanded README with setup, testing, and feature docs
+- Extended session listing endpoint with pagination, search, and date filters to support history exploration.
 ## Next Up
 
 - scaffold the Vue 3 frontend (Vite + Element Plus + TailwindCSS)

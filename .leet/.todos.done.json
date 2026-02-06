@@ -139,6 +139,26 @@
       "suggested_solutions": [],
       "goal_id": null,
       "branch": "main#feature#infographic-generation"
+    },
+    {
+      "id": "add-pyproject-toml-with-dependencies",
+      "content": "Add `pyproject.toml` with dependencies",
+      "status": "completed",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": "main#feature#session-sources"
+    },
+    {
+      "id": "backend-add-query-params-to-list-sessions-date-range-search",
+      "content": "Backend: Add query params to list sessions (date range, search)",
+      "status": "completed",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
     }
   ]
 }

@@ -1,19 +1,9 @@
 {
   "todos": [
     {
-      "id": "add-pyproject-toml-with-dependencies",
-      "content": "Add `pyproject.toml` with dependencies",
-      "status": "in_progress",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": "main#feature#session-sources"
-    },
-    {
       "id": "acceptance-criteria",
       "content": "Acceptance Criteria:**",
-      "status": "pending",
+      "status": "in_progress",
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
@@ -743,16 +733,6 @@
     {
       "id": "image-path-stored-in-database",
       "content": "Image path stored in database",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "backend-add-query-params-to-list-sessions-date-range-search",
-      "content": "Backend: Add query params to list sessions (date range, search)",
       "status": "pending",
       "background": null,
       "dependencies": [],

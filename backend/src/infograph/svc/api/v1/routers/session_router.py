@@ -4,7 +4,7 @@ from __future__ import annotations
 
 from typing import Iterable
 
-from fastapi import Depends, Header, HTTPException
+from fastapi import Depends, Header, HTTPException, Query
 
 from infograph.core.schemas import (
     Message,
@@ -91,11 +91,21 @@ class SessionRouter(APIRouterBase):
 
         @self.get("", response_model=list[ResearchSession])
         async def list_sessions(
+            limit: int = Query(20, ge=1, le=100),
+            offset: int = Query(0, ge=0),
+            search: str | None = Query(None, min_length=1),
+            start_timestamp: int | None = Query(None, alias="start"),
+            end_timestamp: int | None = Query(None, alias="end"),
             current_user: User = Depends(self._get_current_user),
         ) -> list[ResearchSession]:
             """List research sessions belonging to the authenticated user."""
             sessions: Iterable[ResearchSession] = await self.session_store.list_for_user(
-                current_user.user_id
+                current_user.user_id,
+                limit=limit,
+                offset=offset,
+                search=search,
+                start_timestamp=start_timestamp,
+                end_timestamp=end_timestamp,
             )
             return list(sessions)
 

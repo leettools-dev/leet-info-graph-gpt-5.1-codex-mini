@@ -16,7 +16,16 @@ class AbstractSessionStore(ABC):
         raise NotImplementedError
 
     @abstractmethod
-    async def list_for_user(self, user_id: str) -> Iterable[ResearchSession]:
+    async def list_for_user(
+        self,
+        user_id: str,
+        *,
+        limit: int = 20,
+        offset: int = 0,
+        search: str | None = None,
+        start_timestamp: int | None = None,
+        end_timestamp: int | None = None,
+    ) -> Iterable[ResearchSession]:
         raise NotImplementedError
 
     @abstractmethod

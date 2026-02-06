@@ -46,11 +46,38 @@ class SessionStoreDuckDB(AbstractSessionStore):
         )
         return self.store._to_model(row)
 
-    async def list_for_user(self, user_id: str) -> Iterable[ResearchSession]:
+    async def list_for_user(
+        self,
+        user_id: str,
+        *,
+        limit: int = 20,
+        offset: int = 0,
+        search: str | None = None,
+        start_timestamp: int | None = None,
+        end_timestamp: int | None = None,
+    ) -> Iterable[ResearchSession]:
+        clauses = ["WHERE user_id = ?"]
+        values: list[object] = [user_id]
+
+        if search:
+            clauses.append("AND prompt ILIKE ?")
+            values.append(f"%{search}%")
+
+        if start_timestamp is not None:
+            clauses.append("AND created_at >= ?")
+            values.append(start_timestamp)
+
+        if end_timestamp is not None:
+            clauses.append("AND created_at <= ?")
+            values.append(end_timestamp)
+
+        where_clause = " ".join(clauses) + " ORDER BY created_at DESC LIMIT ? OFFSET ?"
+        values.extend([limit, offset])
+
         rows = self.store.client.fetch_all_from_table(
             table_name=self.store.table_name,
-            where_clause="WHERE user_id = ? ORDER BY created_at DESC",
-            value_list=[user_id],
+            where_clause=where_clause,
+            value_list=values,
         )
         return [self.store._to_model(row) for row in rows]
 
