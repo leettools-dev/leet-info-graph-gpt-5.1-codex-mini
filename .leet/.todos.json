@@ -1261,14 +1261,14 @@
       "branch": null
     },
     {
-      "id": "session-messages",
-      "content": "session-messages",
+      "id": "infographic-generation",
+      "content": "infographic-generation",
       "status": "in_progress",
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
       "goal_id": null,
-      "branch": "main#feature#session-messages"
+      "branch": "main#feature#infographic-generation"
     }
   ]
 }

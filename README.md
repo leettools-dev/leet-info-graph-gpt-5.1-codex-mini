@@ -48,11 +48,10 @@ python -m pytest tests/
 
 ## Features
 
-- Backend health endpoint with FastAPI and CLI entry point (Goal 1)
-- Frontend/Vite skeleton with Tailwind, Element Plus, placeholder routers, and auth scaffolding (Goal 2)
-- DuckDB-backed persistence for core entities (Goal 3)
-- Session management & chat scaffolding (Goal 5 & 6 partially)
-
+- Backend skeleton with health endpoint provides a foundation for API development.
+- Initial frontend placeholder pages allow navigation between Login, Chat, and History views.
+- DuckDB-based data stores ensure reliable persistence for users, sessions, sources, and infographics.
+- Google OAuth authentication flow with JWT issuance enables secure user access.
 ## Next Up
 
 - scaffold the Vue 3 frontend (Vite + Element Plus + TailwindCSS)
