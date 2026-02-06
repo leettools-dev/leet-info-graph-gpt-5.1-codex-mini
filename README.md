@@ -48,7 +48,8 @@ python -m pytest tests/
 
 ## Features
 
-- `src/router/index.js` defines placeholder routes for Login, Chat, and History pages.
+- Added session management router with CRUD operations, JWT-based authentication, and chat messaging endpoints.
+
 ## Next Up
 
 - scaffold the Vue 3 frontend (Vite + Element Plus + TailwindCSS)
