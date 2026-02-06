@@ -48,7 +48,9 @@ python -m pytest tests/
 
 ## Features
 
-- Added Vue router with guarded routes for login, chat, history, and session details.
+- Added complete authentication flow including Google OAuth token verification, JWT issuance, and user session endpoints.
+- Implemented research session CRUD with search-triggered source gathering and infographic generation.
+- Built responsive Vue 3 frontend with TailwindCSS/Element Plus, guarded routes, and rich chat/history UI.
 
 ## Next Up
 
