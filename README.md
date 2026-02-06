@@ -50,6 +50,7 @@ python -m pytest tests/
 
 - Added `SourceList` and `SourceCard` frontend components that fetch `/api/v1/sessions/{session_id}/sources` and display each source with clickable links.
 - The session detail page now renders session metadata alongside fetched sources from the backend.
+- Documented backend skeleton with FastAPI application factory, CLI entry point, and health endpoint so the service can be launched with `python -m infograph.svc.main --port 8000` and verified via `/api/v1/health`.
 
 ## Next Up
 

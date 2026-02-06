@@ -1,0 +1,1 @@
+Backend skeleton implemented with FastAPI service, CLI entry point, health router, and skeleton tests.
