@@ -8,7 +8,7 @@
       "dependencies": [],
       "suggested_solutions": [],
       "goal_id": null,
-      "branch": null
+      "branch": "main#feature#frontend-google-auth"
     },
     {
       "id": "python--m-infograph-svc-main---port-8000-starts-the-server",
