@@ -3,12 +3,12 @@
     {
       "id": "add-pyproject-toml-with-dependencies",
       "content": "Add `pyproject.toml` with dependencies",
-      "status": "in_progress",
+      "status": "pending",
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
       "goal_id": null,
-      "branch": "main#feature#source-endpoints"
+      "branch": null
     },
     {
       "id": "acceptance-criteria",
@@ -1259,6 +1259,16 @@
       "suggested_solutions": [],
       "goal_id": null,
       "branch": null
+    },
+    {
+      "id": "session-messages",
+      "content": "session-messages",
+      "status": "in_progress",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": "main#feature#session-messages"
     }
   ]
 }

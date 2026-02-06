@@ -131,17 +131,6 @@ class SessionRouter(APIRouterBase):
         @self.get("/{session_id}/messages", response_model=list[Message])
         async def list_messages(
             session_id: str,
-            payload: MessageCreate,
-            current_user: User = Depends(self._get_current_user),
-        ) -> Message:
-            """Store a chat message for a session the user owns."""
-            await self._get_user_session(session_id, current_user)
-            message_payload = payload.model_copy(update={"session_id": session_id})
-            return await self.message_store.create(message_payload)
-
-        @self.get("/{session_id}/messages", response_model=list[Message])
-        async def list_messages(
-            session_id: str,
             current_user: User = Depends(self._get_current_user),
         ) -> list[Message]:
             """Return chat messages for a user's session."""
