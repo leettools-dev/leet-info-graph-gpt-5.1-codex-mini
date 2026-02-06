@@ -48,7 +48,7 @@ python -m pytest tests/
 
 ## Features
 
-Placeholder?
+- Backend health check is live at `/api/v1/health` with version metadata
 ## Next Up
 
 - scaffold the Vue 3 frontend (Vite + Element Plus + TailwindCSS)

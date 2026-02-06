@@ -3,8 +3,11 @@ import { computed, onMounted, ref } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 
 import { getSession } from '@/api/session'
+import { listSources } from '@/api/source'
+import SourceList from '@/components/SourceList.vue'
 import { logger } from '@/lib/utils'
 import { useAuth } from '@/composables/useAuth'
+import SourceList from '@/components/SourceList.vue'
 
 const route = useRoute()
 const router = useRouter()
@@ -14,6 +17,8 @@ const sessionId = computed(() => route.params.sessionId)
 const session = ref(null)
 const loading = ref(true)
 const error = ref('')
+const sources = ref([])
+const sourcesLoading = ref(true)
 
 const displayName = computed(() => user.value?.name ?? 'Researcher')
 
@@ -30,6 +35,18 @@ const fetchSession = async () => {
     error.value = err?.message ?? 'Unable to load session'
   } finally {
     loading.value = false
+  }
+}
+
+const fetchSources = async () => {
+  sourcesLoading.value = true
+  if (!sessionId.value) return
+  try {
+    sources.value = await listSources(sessionId.value)
+  } catch (err) {
+    logger.debug('SessionDetailPage: fetchSources failed', err)
+  } finally {
+    sourcesLoading.value = false
   }
 }
 
@@ -50,6 +67,7 @@ const formattedCreatedAt = (value) => {
 
 onMounted(() => {
   fetchSession()
+  fetchSources()
 })
 </script>
 
@@ -73,12 +91,7 @@ onMounted(() => {
         <p class="text-base leading-relaxed">{{ session.prompt }}</p>
         <p class="text-xs text-slate-500">Created {{ formattedCreatedAt(session.created_at) }}</p>
       </div>
-      <div class="rounded border border-dashed border-slate-700 p-4 bg-slate-950">
-        <h2 class="text-lg font-semibold">Insights</h2>
-        <p class="text-sm text-slate-400">
-          Source extraction and infographic rendering will appear here once they are implemented.
-        </p>
-      </div>
+      <SourceList :sessionId="session.session_id" />
     </section>
   </div>
 </template>
