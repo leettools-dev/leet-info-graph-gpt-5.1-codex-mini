@@ -48,7 +48,9 @@ python -m pytest tests/
 
 ## Features
 
-- Backend health check is live at `/api/v1/health` with version metadata
+- Added `SourceList` and `SourceCard` frontend components that fetch `/api/v1/sessions/{session_id}/sources` and display each source with clickable links.
+- The session detail page now renders session metadata alongside fetched sources from the backend.
+
 ## Next Up
 
 - scaffold the Vue 3 frontend (Vite + Element Plus + TailwindCSS)
