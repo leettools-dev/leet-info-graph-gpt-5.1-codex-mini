@@ -10,6 +10,7 @@ dependencies = [
     "duckdb>=0.8.1",
     "pyjwt>=2.8.0",
     "google-auth>=2.24.0",
+    "pillow>=10.0.0",
 ]
 
 [project.optional-dependencies]
