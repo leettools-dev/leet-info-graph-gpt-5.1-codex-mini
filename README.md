@@ -48,10 +48,7 @@ python -m pytest tests/
 
 ## Features
 
-- Added complete authentication flow including Google OAuth token verification, JWT issuance, and user session endpoints.
-- Implemented research session CRUD with search-triggered source gathering and infographic generation.
-- Built responsive Vue 3 frontend with TailwindCSS/Element Plus, guarded routes, and rich chat/history UI.
-
+- Updated backend documentation to note health endpoint behavior and CLI usage.
 ## Next Up
 
 - scaffold the Vue 3 frontend (Vite + Element Plus + TailwindCSS)
