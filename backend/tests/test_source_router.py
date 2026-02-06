@@ -13,10 +13,7 @@ from infograph.stores.duckdb.user_store_duckdb import UserStoreDuckDB
 from infograph.svc.api.v1.routers.source_router import SourceRouter
 
 
-@staticmethod
-
-@pytest.fixture
-async def source_context(duckdb_settings):
+async def _build_source_context(duckdb_settings):
     """Prepare an API client with a user, session, and stored sources."""
 
     user_store = UserStoreDuckDB(duckdb_settings)
@@ -70,6 +67,15 @@ async def source_context(duckdb_settings):
         "token": token,
         "session_id": session.session_id,
     }
+
+
+@pytest.fixture
+def source_context(duckdb_settings):
+    loop = asyncio.new_event_loop()
+    try:
+        return loop.run_until_complete(_build_source_context(duckdb_settings))
+    finally:
+        loop.close()
 
 
 def test_list_sources_requires_authorization(source_context):

@@ -48,7 +48,10 @@ python -m pytest tests/
 
 ## Features
 
-- Added source listing API with JWT-protected session validation, along with a SourceRouter and DuckDB-backed stores to persist real-world research sources.
+- Backend health endpoint with FastAPI and CLI entry point (Goal 1)
+- Frontend/Vite skeleton with Tailwind, Element Plus, placeholder routers, and auth scaffolding (Goal 2)
+- DuckDB-backed persistence for core entities (Goal 3)
+- Session management & chat scaffolding (Goal 5 & 6 partially)
 
 ## Next Up
 
