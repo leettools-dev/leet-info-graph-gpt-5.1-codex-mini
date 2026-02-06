@@ -1,3 +1,44 @@
 {
-  "todos": []
+  "todos": [
+    {
+      "id": "tasks",
+      "content": "Tasks:**",
+      "status": "completed",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": "main#feature#continue-requirements"
+    },
+    {
+      "id": "frontend-create-sourcelist-vue-and-sourcecard-vue",
+      "content": "Frontend: Create `SourceList.vue` and `SourceCard.vue`",
+      "status": "completed",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "frontend-display-sources-in-session-detail",
+      "content": "Frontend: Display sources in session detail",
+      "status": "completed",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "backend-create-session-router-py-with-all-session-endpoints",
+      "content": "Backend: Create `session_router.py` with all session endpoints",
+      "status": "completed",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    }
+  ]
 }
