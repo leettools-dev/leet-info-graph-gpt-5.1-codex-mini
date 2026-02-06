@@ -48,10 +48,7 @@ python -m pytest tests/
 
 ## Features
 
-- README and project docs updated with backend/ frontend status.
-- Health check endpoint verified by pytest.
-- Vue 3 frontend skeleton with router, pages, and global layout.
-- Task tracking via structured todo store for all goals.
+- `src/router/index.js` defines placeholder routes for Login, Chat, and History pages.
 ## Next Up
 
 - scaffold the Vue 3 frontend (Vite + Element Plus + TailwindCSS)
