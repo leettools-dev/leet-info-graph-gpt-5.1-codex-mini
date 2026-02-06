@@ -48,7 +48,7 @@ python -m pytest tests/
 
 ## Features
 
-- Extended session listing endpoint with pagination, search, and date filters to support history exploration.
+Placeholder?
 ## Next Up
 
 - scaffold the Vue 3 frontend (Vite + Element Plus + TailwindCSS)
