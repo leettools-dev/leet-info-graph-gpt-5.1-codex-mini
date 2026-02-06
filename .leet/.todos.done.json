@@ -129,6 +129,16 @@
       "suggested_solutions": [],
       "goal_id": null,
       "branch": null
+    },
+    {
+      "id": "infographic-generation",
+      "content": "infographic-generation",
+      "status": "completed",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": "main#feature#infographic-generation"
     }
   ]
 }

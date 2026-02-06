@@ -48,10 +48,15 @@ python -m pytest tests/
 
 ## Features
 
-- Backend skeleton with health endpoint provides a foundation for API development.
-- Initial frontend placeholder pages allow navigation between Login, Chat, and History views.
-- DuckDB-based data stores ensure reliable persistence for users, sessions, sources, and infographics.
-- Google OAuth authentication flow with JWT issuance enables secure user access.
+- Added backend skeleton with health endpoint
+- Set up frontend skeleton with router, placeholder pages, and health check
+- Added initial DuckDB stores and CRUD tests
+- Implemented Google OAuth backend authentication and JWT issuance
+- Built research session CRUD endpoints, frontend flow, and chat interface
+- Added web search, source listing, and infographic generation endpoints
+- Implemented history filtering, export, and advanced infographic templates
+- Documented authentication flow and usage in README
+- Expanded README with setup, testing, and feature docs
 ## Next Up
 
 - scaffold the Vue 3 frontend (Vite + Element Plus + TailwindCSS)
