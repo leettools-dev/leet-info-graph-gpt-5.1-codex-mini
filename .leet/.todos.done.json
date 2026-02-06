@@ -39,6 +39,76 @@
       "suggested_solutions": [],
       "goal_id": null,
       "branch": null
+    },
+    {
+      "id": "frontend-source-list",
+      "content": "frontend-source-list",
+      "status": "completed",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": "main#feature#frontend-source-list"
+    },
+    {
+      "id": "initialize-python-package-structure-under-backend-src-infograph",
+      "content": "Initialize Python package structure under `backend/src/infograph/`",
+      "status": "completed",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "create-main-py-with-click-cli-for-starting-server",
+      "content": "Create `main.py` with Click CLI for starting server",
+      "status": "completed",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "create-api-service-py-with-fastapi-app-cors-middleware",
+      "content": "Create `api_service.py` with FastAPI app, CORS middleware",
+      "status": "completed",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "create-health-router-py-with-api-v1-health-endpoint",
+      "content": "Create `health_router.py` with `/api/v1/health` endpoint",
+      "status": "completed",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "add-pyproject-toml-with-dependencies",
+      "content": "Add `pyproject.toml` with dependencies",
+      "status": "completed",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "backend-create-session-router-py-with-all-session-endpoints",
+      "content": "Backend: Create `session_router.py` with all session endpoints",
+      "status": "completed",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
     }
   ]
 }

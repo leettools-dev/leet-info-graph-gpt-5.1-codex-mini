@@ -48,9 +48,12 @@ python -m pytest tests/
 
 ## Features
 
-- Added `SourceList` and `SourceCard` frontend components that fetch `/api/v1/sessions/{session_id}/sources` and display each source with clickable links.
-- The session detail page now renders session metadata alongside fetched sources from the backend.
-
+- Backend skeleton updated with FastAPI base router utilities.
+- Backend health check endpoint with automated test.
+- Backend CLI entry point `infograph.svc.main` ready to launch the app with Click and Uvicorn.
+- DuckDB stores implemented with tests covering CRUD operations for all entities.
+- Frontend skeleton with Vue 3, Pinia, Element Plus, health check integration, and the Google login placeholder flow.
+- Session management API plus frontend session store, history, and chat placeholders ready for future enhancements.
 ## Next Up
 
 - scaffold the Vue 3 frontend (Vite + Element Plus + TailwindCSS)
